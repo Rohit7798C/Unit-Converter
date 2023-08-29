@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://i.redd.it/vmq271mtq1o51.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+}
+.top-txt{
+    margin-bottom: 15px;
+    color: #f5f5f5;
+}
+.container{
+    box-shadow: 0 0 4px 1px rgb(249, 247, 247);
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;  
+}
+.container p{
+    color: rgb(245, 242, 242);
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.inputContainer{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+}
+.inputContainer label{
+    font-size: larger;
+    color: #f5f5f5;
+}
+.inputContainer input{
+    border:none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgb(59, 51, 51);
+    padding:4px;
+    font-size: large;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
